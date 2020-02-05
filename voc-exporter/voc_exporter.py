@@ -149,6 +149,7 @@ def _add_pascal_object_from_xy(xml_writer, polygons, label):
 
         xy_coords = []
         for point in polygon:
+            # half the coordinate as we half the dimension of the image
             x_new = int(point['x'] / 2) 
             y_new = int(point['y'] / 2) 
             xy_coords.extend([x_new, y_new])
