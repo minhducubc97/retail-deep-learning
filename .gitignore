@@ -1,3 +1,4 @@
-Datasets/Pedestrians/Images/
-Datasets/Pedestrians/Labels/
-*.png
+Datasets/
+voc-exporter/Json
+examples/MobileNet-SSD/create_lmdb/code/*.txt
+pedestrians/snapshot/

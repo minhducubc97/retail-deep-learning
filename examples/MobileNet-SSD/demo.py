@@ -1,7 +1,7 @@
 import numpy as np  
 import sys,os  
 import cv2
-caffe_root = '/home/yaochuanqi/work/ssd/caffe/'
+caffe_root = '/home/docker/dnguyen/Dev/HumanDetection/workspace/examples/caffe/'
 sys.path.insert(0, caffe_root + 'python')  
 import caffe  
 
@@ -18,12 +18,7 @@ if not os.path.exists(net_file):
     exit()
 net = caffe.Net(net_file,caffe_model,caffe.TEST)  
 
-CLASSES = ('background',
-           'aeroplane', 'bicycle', 'bird', 'boat',
-           'bottle', 'bus', 'car', 'cat', 'chair',
-           'cow', 'diningtable', 'dog', 'horse',
-           'motorbike', 'person', 'pottedplant',
-           'sheep', 'sofa', 'train', 'tvmonitor')
+CLASSES = ('background', 'face', 'human')
 
 
 def preprocess(src):

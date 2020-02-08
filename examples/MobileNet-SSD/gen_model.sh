@@ -1,13 +1,13 @@
 #!/bin/sh
 if test -z $1 ;then
 	echo usage: $0 CLASSNUM
-        echo "        for voc the classnum is 2"
+        echo "        for voc the classnum is 3"
 	exit 1
 fi
 echo $1 |grep '^[0-9]*$' >/dev/null 2>&1
 if [ $? != 0 ];then
 	echo usage: $0 CLASSNUM
-        echo "        for voc the classnum is 2"
+        echo "        for voc the classnum is 3"
 	exit 1
 fi
 cls_num=$1

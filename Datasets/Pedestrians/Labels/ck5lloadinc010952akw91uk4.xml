@@ -1,13 +1,13 @@
 <annotation>
-    <folder>images</folder>
+    <folder>Images</folder>
     <filename>ck5lloadinc010952akw91uk4.png</filename>
-    <path>/output/images/ck5lloadinc010952akw91uk4.png</path>
+    <path>/output/Images/ck5lloadinc010952akw91uk4.png</path>
     <source>
         <database>Unknown</database>
     </source>
     <size>
-        <width>1440</width>
-        <height>1080</height>
+        <width>720</width>
+        <height>540</height>
         <depth>3</depth>
     </size>
     <segmented>0</segmented>
@@ -17,10 +17,10 @@
         <truncated>0</truncated>
         <difficult>0</difficult>
         <bndbox>
-                <xmin>255</xmin>
+                <xmin>127</xmin>
                 <ymin>0</ymin>
-                <xmax>357</xmax>
-                <ymax>155</ymax>
+                <xmax>178</xmax>
+                <ymax>77</ymax>
             </bndbox>
         </object>
     <object>
@@ -29,10 +29,10 @@
         <truncated>0</truncated>
         <difficult>0</difficult>
         <bndbox>
-                <xmin>206</xmin>
+                <xmin>103</xmin>
                 <ymin>0</ymin>
-                <xmax>421</xmax>
-                <ymax>698</ymax>
+                <xmax>210</xmax>
+                <ymax>349</ymax>
             </bndbox>
         </object>
     <object>
@@ -41,10 +41,10 @@
         <truncated>0</truncated>
         <difficult>0</difficult>
         <bndbox>
-                <xmin>91</xmin>
+                <xmin>45</xmin>
                 <ymin>0</ymin>
-                <xmax>214</xmax>
-                <ymax>329</ymax>
+                <xmax>107</xmax>
+                <ymax>164</ymax>
             </bndbox>
         </object>
     <object>
@@ -53,10 +53,10 @@
         <truncated>0</truncated>
         <difficult>0</difficult>
         <bndbox>
-                <xmin>607</xmin>
+                <xmin>303</xmin>
                 <ymin>0</ymin>
-                <xmax>717</xmax>
-                <ymax>198</ymax>
+                <xmax>358</xmax>
+                <ymax>99</ymax>
             </bndbox>
         </object>
     </annotation>
