@@ -68,5 +68,7 @@ for i in np.arange(0, detections.shape[2]):
 			cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
 
 # show the output image
+result = cv2.imwrite("D:/Dev/retail-deep-learning/captured.png", image)
+print(result)
 cv2.imshow("Output", image)
 cv2.waitKey(0)
